@@ -3,7 +3,7 @@
 ;; Copyright © 2011-2016 Bozhidar Batsov
 ;;
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
-;; URL: https://github.com/bbatsov/prelude
+;; URL: http://github.com/bbatsov/prelude
 ;; Version: 1.0.0
 ;; Keywords: convenience
 
@@ -36,7 +36,7 @@
 (require 'package)
 
 (add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 ;; set package-user-dir to be relative to Prelude install path
 (setq package-user-dir (expand-file-name "elpa" prelude-dir))
 (package-initialize)
